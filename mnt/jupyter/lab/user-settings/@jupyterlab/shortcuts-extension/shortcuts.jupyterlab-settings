@@ -1,0 +1,528 @@
+{
+    // Keyboard Shortcuts
+    // @jupyterlab/shortcuts-extension:shortcuts
+    // Keyboard shortcut settings.
+    // *****************************************
+
+    // [missing schema title]
+    // Note: To disable a system default shortcut,
+    // copy it to User Preferences and add the
+    // "disabled" key, for example:
+    // {
+    //     "command": "application:activate-next-tab",
+    //     "keys": [
+    //         "Ctrl Shift ]"
+    //     ],
+    //     "selector": "body",
+    //     "disabled": true
+    // }
+    //
+    // List of commands followed by keyboard shortcuts:
+    // __internal:context-menu-info
+    // apputils:activate-command-palette
+    // apputils:print
+    // apputils:run-first-enabled
+    // completer:invoke
+    // completer:select
+    // tooltip:dismiss
+    // launcher:create
+    // editmenu:undo
+    // editmenu:redo
+    // editmenu:clear-current
+    // editmenu:clear-all
+    // editmenu:go-to-line
+    // filemenu:close-and-cleanup
+    // filemenu:create-console
+    // filemenu:shutdown
+    // filemenu:logout
+    // kernelmenu:interrupt
+    // kernelmenu:restart
+    // kernelmenu:restart-and-clear
+    // kernelmenu:change
+    // kernelmenu:shutdown
+    // kernelmenu:shutdownAll
+    // runmenu:run
+    // runmenu:run-all
+    // runmenu:restart-and-run-all
+    // viewmenu:line-numbering
+    // viewmenu:match-brackets
+    // viewmenu:word-wrap
+    // tabsmenu:activate-by-id
+    // tabsmenu:activate-previously-used-tab
+    // editmenu:open
+    // filemenu:open
+    // kernelmenu:open
+    // runmenu:open
+    // viewmenu:open
+    // settingsmenu:open
+    // tabsmenu:open
+    // helpmenu:open
+    // mainmenu:open-first
+    // documentsearch:start
+    // documentsearch:startWithReplace
+    // documentsearch:highlightNext
+    // documentsearch:highlightPrevious
+    // docmanager:clone
+    // docmanager:rename
+    // docmanager:show-in-file-browser
+    // docmanager:delete-file
+    // docmanager:new-untitled
+    // docmanager:open
+    // docmanager:open-browser-tab
+    // docmanager:reload
+    // docmanager:restore-checkpoint
+    // docmanager:save
+    // docmanager:save-all
+    // docmanager:save-as
+    // docmanager:download
+    // docmanager:toggle-autosave
+    // sidebar:switch
+    // apputils:change-theme
+    // apputils:theme-scrollbars
+    // apputils:incr-font-size
+    // apputils:decr-font-size
+    // statusbar:toggle
+    // rendermime:handle-local-link
+    // application:activate-next-tab
+    // application:activate-previous-tab
+    // application:activate-next-tab-bar
+    // application:activate-previous-tab-bar
+    // application:close
+    // application:close-all
+    // application:close-other-tabs
+    // application:close-right-tabs
+    // application:toggle-left-area
+    // application:toggle-right-area
+    // application:toggle-presentation-mode
+    // application:set-mode
+    // application:toggle-mode
+    // router:tree
+    // apputils:load-statedb
+    // apputils:reset
+    // apputils:reset-on-load
+    // markdownviewer:open
+    // markdownviewer:edit
+    // settingeditor:open
+    // settingeditor:revert
+    // settingeditor:save
+    // variableinspector:open
+    // filetree:toggle:filetree-jupyterlab
+    // filetree:navigate:filetree-jupyterlab
+    // filetree:refresh:filetree-jupyterlab
+    // filetree:set-context:filetree-jupyterlab
+    // filetree:select:filetree-jupyterlab
+    // filetree:rename:filetree-jupyterlab
+    // filetree:create-folder:filetree-jupyterlab
+    // filetree:create-file:filetree-jupyterlab
+    // filetree:delete:filetree-jupyterlab
+    // filetree:download:filetree-jupyterlab
+    // filetree:upload:filetree-jupyterlab
+    // filetree:move:filetree-jupyterlab
+    // filetree:copy_path:filetree-jupyterlab
+    // inspector:open
+    // htmlviewer:trust-html
+    // imageviewer:zoom-in
+    // imageviewer:zoom-out
+    // imageviewer:reset-image
+    // imageviewer:rotate-clockwise
+    // imageviewer:rotate-counterclockwise
+    // imageviewer:flip-horizontal
+    // imageviewer:flip-vertical
+    // imageviewer:invert-colors
+    // shortcutui:open-ui
+    // filebrowser:delete
+    // filebrowser:copy
+    // filebrowser:cut
+    // filebrowser:download
+    // filebrowser:duplicate
+    // filebrowser:hide-main
+    // filebrowser:go-to-path
+    // filebrowser:open-path
+    // filebrowser:open
+    // filebrowser:open-browser-tab
+    // filebrowser:copy-download-link
+    // filebrowser:paste
+    // filebrowser:create-new-directory
+    // filebrowser:create-new-file
+    // filebrowser:create-new-markdown-file
+    // filebrowser:rename
+    // filebrowser:copy-path
+    // filebrowser:activate
+    // filebrowser:shutdown
+    // filebrowser:toggle-main
+    // filebrowser:create-main-launcher
+    // filebrowser:toggle-navigate-to-current-directory
+    // filebrowser:share-main
+    // inspector:open
+    // htmlviewer:trust-html
+    // imageviewer:zoom-in
+    // imageviewer:zoom-out
+    // imageviewer:reset-image
+    // imageviewer:rotate-clockwise
+    // imageviewer:rotate-counterclockwise
+    // imageviewer:flip-horizontal
+    // imageviewer:flip-vertical
+    // imageviewer:invert-colors
+    // terminal:create-new
+    // terminal:open
+    // terminal:refresh
+    // terminal:increase-font
+    // terminal:decrease-font
+    // terminal:set-theme
+    // notebook:run-cell-and-select-next
+    // notebook:run-cell
+    // notebook:run-cell-and-insert-below
+    // notebook:run-in-console
+    // notebook:run-all-cells
+    // notebook:run-all-above
+    // notebook:run-all-below
+    // notebook:render-all-markdown
+    // notebook:restart-kernel
+    // notebook:close-and-shutdown
+    // notebook:trust
+    // notebook:export-to-format
+    // notebook:restart-clear-output
+    // notebook:restart-and-run-to-selected
+    // notebook:restart-run-all
+    // notebook:clear-all-cell-outputs
+    // notebook:clear-cell-output
+    // notebook:interrupt-kernel
+    // notebook:change-cell-to-code
+    // notebook:change-cell-to-markdown
+    // notebook:change-cell-to-raw
+    // notebook:cut-cell
+    // notebook:copy-cell
+    // notebook:paste-cell-below
+    // notebook:paste-cell-above
+    // notebook:paste-and-replace-cell
+    // notebook:delete-cell
+    // notebook:split-cell-at-cursor
+    // notebook:merge-cells
+    // notebook:insert-cell-above
+    // notebook:insert-cell-below
+    // notebook:move-cursor-up
+    // notebook:move-cursor-down
+    // notebook:extend-marked-cells-above
+    // notebook:extend-marked-cells-top
+    // notebook:extend-marked-cells-below
+    // notebook:extend-marked-cells-bottom
+    // notebook:select-all
+    // notebook:deselect-all
+    // notebook:move-cell-up
+    // notebook:move-cell-down
+    // notebook:toggle-all-cell-line-numbers
+    // notebook:enter-command-mode
+    // notebook:enter-edit-mode
+    // notebook:undo-cell-action
+    // notebook:redo-cell-action
+    // notebook:change-kernel
+    // notebook:reconnect-to-kernel
+    // notebook:create-output-view
+    // notebook:create-console
+    // notebook:change-cell-to-heading-1
+    // notebook:change-cell-to-heading-2
+    // notebook:change-cell-to-heading-3
+    // notebook:change-cell-to-heading-4
+    // notebook:change-cell-to-heading-5
+    // notebook:change-cell-to-heading-6
+    // notebook:hide-cell-code
+    // notebook:show-cell-code
+    // notebook:hide-all-cell-code
+    // notebook:show-all-cell-code
+    // notebook:hide-cell-outputs
+    // notebook:show-cell-outputs
+    // notebook:hide-all-cell-outputs
+    // notebook:show-all-cell-outputs
+    // notebook:enable-output-scrolling
+    // notebook:disable-output-scrolling
+    // notebook:select-last-run-cell
+    // notebook:replace-selection
+    // notebook:create-new
+    // help:about
+    // help:open
+    // help:launch-classic-notebook
+    // terminal:create-new
+    // terminal:open
+    // terminal:refresh
+    // terminal:increase-font
+    // terminal:decrease-font
+    // terminal:set-theme
+    // completer:invoke-notebook
+    // completer:select-notebook
+    // logconsole:open
+    // logconsole:add-checkpoint
+    // logconsole:clear
+    // logconsole:set-level
+    // tooltip:launch-notebook
+    // Collapsible_Headings:Toggle_Collapse
+    // Collapsible_Headings:Manually_Update_Collapse_Buttons
+    // Collapsible_Headings:Manually_Update_Notebook_Collapse_State
+    // Collapsible_Headings:Collapse_All
+    // Collapsible_Headings:UnCollapse_All
+    // Collapsible_Headings:Add_Header_Above
+    // Collapsible_Headings:Add_Header_Below
+    // Collapsible_Headings:Uncollapse_Header
+    // Collapsible_Headings:Collapse_Header
+    // Collapsible_Headings:HandleUp
+    // Collapsible_Headings:HandleDown
+    // text-shortcuts:insert-text
+    // help:about
+    // help:open
+    // help:launch-classic-notebook
+    //
+    // Note: To disable a system default shortcut,
+    // copy it to User Preferences and add the
+    // "disabled" key, for example:
+    // {
+    //     "command": "application:activate-next-tab",
+    //     "keys": [
+    //         "Ctrl Shift ]"
+    //     ],
+    //     "selector": "body",
+    //     "disabled": true
+    // }
+    //
+    // List of keyboard shortcuts:
+    "shortcuts": [
+
+////////////// application:
+ { "command": "application:activate-next-tab", "keys": [ "Ctrl Shift ]" ], "selector": "body", "disabled": true },
+ { "command": "application:activate-previous-tab", "keys": [ "Ctrl Shift [" ], "selector": "body", "disabled": true },
+ { "command": "application:activate-next-tab", "keys": [ "Ctrl ArrowRight" ], "selector": "body" },
+ { "command": "application:activate-previous-tab", "keys": [ "Ctrl ArrowLeft" ], "selector": "body" },
+
+ { "command": "application:close", "keys": [ "Alt W" ], "selector": ".jp-Activity", "disabled": true },
+
+ { "command": "application:toggle-left-area", "keys": [ "Accel B" ], "selector": "body", "disabled": true },
+ { "command": "application:toggle-right-area", "keys": [ "" ], "selector": "body", "disabled": true },
+ { "command": "application:toggle-left-area", "keys": [ "Ctrl Shift B" ], "selector": "body" },
+ { "command": "application:toggle-right-area", "keys": [ "Ctrl Shift R" ], "selector": "body" },
+
+ { "command": "application:toggle-mode", "keys": [ "Accel Shift D" ], "selector": "body", "disabled": true },
+ { "command": "application:toggle-presentation-mode", "keys": [ "" ], "selector": "body", "disabled": true },
+ { "command": "apputils:activate-command-palette", "keys": [ "Accel Shift C" ], "selector": "body", "disabled": true },
+ { "command": "apputils:print", "keys": [ "Accel P" ], "selector": "body", "disabled": true },
+
+////////////// docmanager:
+// { "command": "docmanager:save", "keys": [ "Accel S" ], "selector": "body", "disabled": true },
+ { "command": "docmanager:save", "keys": [ "Ctrl S" ], "selector": "body" },
+ { "command": "docmanager:save", "keys": [ "Ctrl X Ctrl S" ], "selector": "body" },
+ { "command": "docmanager:save-as", "keys": [ "Accel Shift S" ], "selector": "body", "disabled": true },
+ { "command": "docmanager:close", "keys": [ "Ctrl Shift W" ], "selector": ".jp-Activity" },
+ { "command": "docmanager:rename", "keys": [ "Ctrl R" ], "selector": ".jp-Notebook:focus" },
+ { "command": "docmanager:show-in-file-browser", "keys": [ "Ctrl B" ], "selector": ".jp-Notebook:focus" },
+
+////////////// documentsearch:
+ { "command": "documentsearch:highlightNext", "keys": [ "Accel G" ], "selector": ".jp-mod-searchable" },
+ { "command": "documentsearch:highlightPrevious", "keys": [ "Accel Shift G" ], "selector": ".jp-mod-searchable" },
+ { "command": "documentsearch:start", "keys": [ "Accel F" ], "selector": ".jp-mod-searchable", "disabled": true },
+
+////////////// filebrowser:
+ { "command": "filebrowser:create-main-launcher", "keys": [ "Accel Shift L" ], "selector": "body", "disabled": true },
+ { "command": "filebrowser:toggle-main", "keys": [ "Accel Shift F" ], "selector": "body" },
+
+// { "command": "filebrowser:copy", "keys": [ "C" ], "selector": ".jp-DirListing-content" },
+// { "command": "filebrowser:cut", "keys": [ "X" ], "selector": ".jp-DirListing-content" },
+// { "command": "filebrowser:past", "keys": [ "V" ], "selector": ".jp-DirListing-content" },
+// { "command": "filebrowser:duplicate", "keys": [ "P" ], "selector": ".jp-DirListing-content" },
+// { "command": "filebrowser:delete", "keys": [ "D" ], "selector": ".jp-DirListing-content" },
+// { "command": "filebrowser:open", "keys": [ "O" ], "selector": ".jp-DirListing-content" },
+
+////////////// kernelmenu:
+ { "command": "kernelmenu:interrupt", "keys": [ "I", "I" ], "selector": "[data-jp-kernel-user]:focus", "disabled": true },
+ { "command": "kernelmenu:interrupt", "keys": [ "9", "9" ], "selector": "[data-jp-kernel-user]:focus" },
+ { "command": "kernelmenu:shutdown", "keys": [ "8", "8" ], "selector": "[data-jp-kernel-user]:focus" },
+ { "command": "kernelmenu:restart", "keys": [ "0", "0" ], "selector": "[data-jp-kernel-user]:focus" },
+ { "command": "kernelmenu:change", "keys": [ "7", "7" ], "selector": "[data-jp-kernel-user]:focus" },
+
+////////////// notebook:
+ { "command": "terminal:create-new", "keys": [ "Shift T" ], "selector": ".jp-Notebook:focus" },
+        
+ { "command": "notebook:change-cell-to-code", "keys": [ "Y" ], "selector": ".jp-Notebook:focus" },
+ { "command": "notebook:change-cell-to-markdown", "keys": [ "M" ], "selector": ".jp-Notebook:focus" },
+ { "command": "notebook:change-cell-to-raw", "keys": [ "R" ], "selector": ".jp-Notebook:focus" },
+
+ { "command": "notebook:change-cell-to-heading-1", "keys": [ "1" ], "selector": ".jp-Notebook:focus" },
+ { "command": "notebook:change-cell-to-heading-2", "keys": [ "2" ], "selector": ".jp-Notebook:focus" },
+ { "command": "notebook:change-cell-to-heading-3", "keys": [ "3" ], "selector": ".jp-Notebook:focus" },
+ { "command": "notebook:change-cell-to-heading-4", "keys": [ "4" ], "selector": ".jp-Notebook:focus" },
+ { "command": "notebook:change-cell-to-heading-5", "keys": [ "5" ], "selector": ".jp-Notebook:focus" },
+ { "command": "notebook:change-cell-to-heading-6", "keys": [ "6" ], "selector": ".jp-Notebook:focus" },
+
+ { "command": "notebook:copy-cell", "keys": [ "C" ], "selector": ".jp-Notebook:focus" },
+ { "command": "notebook:cut-cell", "keys": [ "X" ], "selector": ".jp-Notebook:focus" },
+ { "command": "notebook:delete-cell", "keys": [ "D", "D" ], "selector": ".jp-Notebook:focus" },
+ { "command": "notebook:enter-command-mode", "keys": [ "Escape" ], "selector": ".jp-Notebook.jp-mod-editMode" },
+ { "command": "notebook:enter-command-mode", "keys": [ "Ctrl M" ], "selector": ".jp-Notebook.jp-mod-editMode", "disabled": true },
+
+ { "command": "notebook:enter-edit-mode", "keys": [ "Enter" ], "selector": ".jp-Notebook:focus" },
+
+
+ { "command": "notebook:extend-marked-cells-above", "keys": [ "Shift ArrowUp" ], "selector": ".jp-Notebook:focus" },
+ { "command": "notebook:extend-marked-cells-above", "keys": [ "Shift K" ], "selector": ".jp-Notebook:focus", "disabled": true },
+ { "command": "notebook:extend-marked-cells-below", "keys": [ "Shift ArrowDown" ], "selector": ".jp-Notebook:focus" },
+ { "command": "notebook:extend-marked-cells-below", "keys": [ "Shift J" ], "selector": ".jp-Notebook:focus", "disabled": true },
+
+ { "command": "notebook:insert-cell-above", "keys": [ "A" ], "selector": ".jp-Notebook:focus" },
+ { "command": "notebook:insert-cell-below", "keys": [ "B" ], "selector": ".jp-Notebook:focus" },
+
+ { "command": "notebook:merge-cells", "keys": [ "Shift M" ], "selector": ".jp-Notebook:focus" },
+
+ { "command": "notebook:move-cell-up", "keys": [ "Ctrl ArrowUp" ], "selector": ".jp-Notebook:focus" },
+ { "command": "notebook:move-cell-down", "keys": [ "Ctrl ArrowDown" ], "selector": ".jp-Notebook:focus" },
+
+ { "command": "notebook:move-cursor-down", "keys": [ "ArrowDown" ], "selector": ".jp-Notebook:focus" },
+ { "command": "notebook:move-cursor-down", "keys": [ "N" ], "selector": ".jp-Notebook:focus" },
+// { "command": "notebook:move-cursor-down", "keys": [ "J" ], "selector": ".jp-Notebook:focus", "disabled": true },
+ { "command": "notebook:move-cursor-up", "keys": [ "ArrowUp" ], "selector": ".jp-Notebook:focus" },
+// { "command": "notebook:move-cursor-up", "keys": [ "K" ], "selector": ".jp-Notebook:focus", "disabled": true },
+ { "command": "notebook:move-cursor-up", "keys": [ "P" ], "selector": ".jp-Notebook:focus" },
+ { "command": "notebook:move-cursor-down", "keys": [ "Ctrl N" ], "selector": ".jp-Notebook:focus" },
+ { "command": "notebook:move-cursor-up", "keys": ["Ctrl P"], "selector": ".jp-Notebook:focus"},
+
+ { "command": "notebook:paste-cell-above", "keys": ["W"], "selector": ".jp-Notebook:focus"},
+ { "command": "notebook:paste-cell-below", "keys": [ "V" ], "selector": ".jp-Notebook:focus" },
+
+ { "command": "notebook:redo-cell-action", "keys": [ "Shift Z" ], "selector": ".jp-Notebook:focus" },
+
+ { "command": "notebook:run-cell", "keys": [ "Ctrl Enter" ], "selector": ".jp-Notebook:focus" },
+ { "command": "notebook:run-cell", "keys": [ "Ctrl Enter" ], "selector": ".jp-Notebook.jp-mod-editMode" },
+ { "command": "notebook:run-cell-and-insert-below", "keys": [ "Alt Enter" ], "selector": ".jp-Notebook:focus", "disabled": true },
+ { "command": "notebook:run-cell-and-insert-below", "keys": [ "Alt Enter" ], "selector": ".jp-Notebook.jp-mod-editMode", "disabled": true },
+ { "command": "notebook:run-cell-and-select-next", "keys": [ "Shift Enter" ], "selector": ".jp-Notebook.jp-mod-editMode" },
+ { "command": "notebook:run-in-console", "keys": [ "Ctrl C" ], "selector": ".jp-Notebook.jp-mod-editMode" },
+{ "command": "notebook:create-console", "keys": [ "Ctrl C" ], "selector": ".jp-Notebook:focus" },
+        
+ { "command": "notebook:select-all", "keys": [ "Ctrl A" ], "selector": ".jp-Notebook:focus" },
+ { "command": "notebook:select-all", "keys": [ "Accel A" ], "selector": ".jp-Notebook:focus", "disabled": true },
+
+ { "command": "notebook:split-cell-at-cursor", "keys": [ "Ctrl Shift -" ], "selector": ".jp-Notebook.jp-mod-editMode", "disabled": true },
+ { "command": "notebook:split-cell-at-cursor", "keys": [ "Ctrl Shift S" ], "selector": ".jp-Notebook.jp-mod-editMode" },
+
+ { "command": "notebook:toggle-all-cell-line-numbers", "keys": [ "Shift N" ], "selector": ".jp-Notebook:focus" },
+
+ { "command": "notebook:undo-cell-action", "keys": [ "Z" ], "selector": ".jp-Notebook:focus" },
+
+ { "command": "notebook:clear-cell-output", "keys": [ "L" ], "selector": ".jp-Notebook:focus" },
+ { "command": "notebook:clear-all-cell-outputs", "keys": [ "Ctrl L" ], "selector": ".jp-Notebook:focus" },
+
+ { "command": "notebook:hide-cell-code", "keys": [ "I" ], "selector": ".jp-Notebook:focus" },
+ { "command": "notebook:show-cell-code", "keys": [ "I", "I" ], "selector": ".jp-Notebook:focus" },
+ { "command": "notebook:hide-all-cell-code", "keys": [ "Ctrl I" ], "selector": ".jp-Notebook:focus" },
+ { "command": "notebook:show-all-cell-code", "keys": [ "Ctrl I", "Ctrl I" ], "selector": ".jp-Notebook:focus" },
+
+ { "command": "notebook:hide-cell-outputs", "keys": [ "O" ], "selector": ".jp-Notebook:focus" },
+ { "command": "notebook:show-cell-outputs", "keys": [ "O", "O" ], "selector": ".jp-Notebook:focus" },
+ { "command": "notebook:hide-all-cell-outputs", "keys": [ "Ctrl O" ], "selector": ".jp-Notebook:focus" },
+ { "command": "notebook:show-all-cell-outputs", "keys": [ "Ctrl O", "Ctrl O" ], "selector": ".jp-Notebook:focus" },
+
+ { "command": "notebook:close-and-shutdown", "keys": [ "Shift Ctrl Q" ], "selector": ".jp-Activity" },
+
+ { "command": "notebook:create-output-view", "keys": [ "Ctrl Shift V" ], "selector": ".jp-Notebook:focus" },
+
+////////////// runmenu:
+// { "command": "runmenu:restart-and-run-all", "keys": [ "" ], "selector": "[data-jp-code-runner]" },
+ { "command": "runmenu:run", "keys": [ "Shift Enter" ], "selector": "[data-jp-code-runner]" },
+// { "command": "runmenu:run-all", "keys": [ "" ], "selector": "[data-jp-code-runner]" },
+ { "command": "runmenu:run-all", "keys": [ "Ctrl Alt R" ], "selector": "[data-jp-code-runner]" },
+
+////////////// settingeditor:
+ { "command": "settingeditor:open", "keys": [ "Accel ," ], "selector": "body", "disabled": true },
+ { "command": "settingeditor:save", "keys": [ "Accel S" ], "selector": ".jp-SettingEditor", "disabled": true },
+
+////////////// tabsmenu:
+ { "command": "tabsmenu:activate-previously-used-tab", "keys": [ "Accel Shift '" ], "selector": "body", "disabled": true },
+ { "command": "tabsmenu:activate-previously-used-tab", "keys": [ "Ctrl Shift T" ], "selector": "body" },
+
+////////////// tooltip:
+ { "command": "tooltip:dismiss", "keys": [ "Escape" ], "selector": "body.jp-mod-tooltip .jp-CodeConsole-promptCell" },
+ { "command": "tooltip:dismiss", "keys": [ "Escape" ], "selector": "body.jp-mod-tooltip .jp-Notebook" },
+ { "command": "tooltip:launch-console", "keys": [ "Shift Tab" ], "selector": ".jp-CodeConsole-promptCell .jp-InputArea-editor:not(.jp-mod-has-primary-selection):not(.jp-mod-in-leading-whitespace)" },
+ { "command": "tooltip:launch-file", "keys": [ "Shift Tab" ], "selector": ".jp-FileEditor" },
+ { "command": "tooltip:launch-notebook", "keys": [ "Shift Tab" ], "selector": ".jp-Notebook.jp-mod-editMode .jp-InputArea-editor:not(.jp-mod-has-primary-selection):not(.jp-mod-in-leading-whitespace)" },
+
+////////////// viewmenu:
+ { "command": "viewmenu:line-numbering", "keys": [ "Ctrl Shift N" ], "selector": ".jp-Notebook.jp-mod-commandMode" },
+ { "command": "viewmenu:match-brackets", "keys": [ "" ], "selector": ".jp-Notebook.jp-mod-commandMode" },
+
+////////////// text-shortcuts
+{"command": "text-shortcuts:insert-text", "args": {"text": "α", "autoPad": false}, "keys": ["Ctrl ;", "A"], "selector": "body"},
+{"command": "text-shortcuts:insert-text", "args": {"text": "β", "autoPad": false}, "keys": ["Ctrl ;", "B"], "selector": "body"},
+{"command": "text-shortcuts:insert-text", "args": {"text": "γ", "autoPad": false}, "keys": ["Ctrl ;", "G"], "selector": "body"},
+{"command": "text-shortcuts:insert-text", "args": {"text": "δ", "autoPad": false}, "keys": ["Ctrl ;", "D"], "selector": "body"},
+{"command": "text-shortcuts:insert-text", "args": {"text": "ε", "autoPad": false}, "keys": ["Ctrl ;", "E", "P"], "selector": "body"},
+{"command": "text-shortcuts:insert-text", "args": {"text": "η", "autoPad": false}, "keys": ["Ctrl ;", "E", "T"], "selector": "body"},
+{"command": "text-shortcuts:insert-text", "args": {"text": "ζ", "autoPad": false}, "keys": ["Ctrl ;", "Z"], "selector": "body"},
+{"command": "text-shortcuts:insert-text", "args": {"text": "θ", "autoPad": false}, "keys": ["Ctrl ;", "T", "H"], "selector": "body"},
+{"command": "text-shortcuts:insert-text", "args": {"text": "ι", "autoPad": false}, "keys": ["Ctrl ;", "I"], "selector": "body"},
+{"command": "text-shortcuts:insert-text", "args": {"text": "κ", "autoPad": false}, "keys": ["Ctrl ;", "K"], "selector": "body"},
+{"command": "text-shortcuts:insert-text", "args": {"text": "χ", "autoPad": false}, "keys": ["Ctrl ;", "C"], "selector": "body"},
+{"command": "text-shortcuts:insert-text", "args": {"text": "λ", "autoPad": false}, "keys": ["Ctrl ;", "L"], "selector": "body"},
+{"command": "text-shortcuts:insert-text", "args": {"text": "μ", "autoPad": false}, "keys": ["Ctrl ;", "M"], "selector": "body"},
+{"command": "text-shortcuts:insert-text", "args": {"text": "ν", "autoPad": false}, "keys": ["Ctrl ;", "N"], "selector": "body"},
+{"command": "text-shortcuts:insert-text", "args": {"text": "ξ", "autoPad": false}, "keys": ["Ctrl ;", "X"], "selector": "body"},
+{"command": "text-shortcuts:insert-text", "args": {"text": "π", "autoPad": false}, "keys": ["Ctrl ;", "P", "I"], "selector": "body"},
+{"command": "text-shortcuts:insert-text", "args": {"text": "ψ", "autoPad": false}, "keys": ["Ctrl ;", "P", "S"], "selector": "body"},
+{"command": "text-shortcuts:insert-text", "args": {"text": "ω", "autoPad": false}, "keys": ["Ctrl ;", "O"], "selector": "body"},
+{"command": "text-shortcuts:insert-text", "args": {"text": "ρ", "autoPad": false}, "keys": ["Ctrl ;", "R"], "selector": "body"},
+{"command": "text-shortcuts:insert-text", "args": {"text": "σ", "autoPad": false}, "keys": ["Ctrl ;", "S"], "selector": "body"},
+{"command": "text-shortcuts:insert-text", "args": {"text": "υ", "autoPad": false}, "keys": ["Ctrl ;", "U"], "selector": "body"},
+{"command": "text-shortcuts:insert-text", "args": {"text": "φ", "autoPad": false}, "keys": ["Ctrl ;", "P", "H"], "selector": "body"},
+
+{"command": "text-shortcuts:insert-text", "args": {"text": "Γ", "autoPad": false}, "keys": ["Ctrl ;", "Shift G"], "selector": "body"},
+{"command": "text-shortcuts:insert-text", "args": {"text": "Δ", "autoPad": false}, "keys": ["Ctrl ;", "Ctrl ;", "D"], "selector": "body"},
+{"command": "text-shortcuts:insert-text", "args": {"text": "Θ", "autoPad": false}, "keys": ["Ctrl ;", "Shift T"], "selector": "body"},
+{"command": "text-shortcuts:insert-text", "args": {"text": "Λ", "autoPad": false}, "keys": ["Ctrl ;", "Shift L"], "selector": "body"},
+{"command": "text-shortcuts:insert-text", "args": {"text": "Ξ", "autoPad": false}, "keys": ["Ctrl ;", "Shift X"], "selector": "body"},
+{"command": "text-shortcuts:insert-text", "args": {"text": "Π", "autoPad": false}, "keys": ["Ctrl ;", "Shift P", "Shift I"], "selector": "body"},
+{"command": "text-shortcuts:insert-text", "args": {"text": "Σ", "autoPad": false}, "keys": ["Ctrl ;", "Shift S"], "selector": "body"},
+{"command": "text-shortcuts:insert-text", "args": {"text": "Φ", "autoPad": false}, "keys": ["Ctrl ;", "Shift P", "Shift H"], "selector": "body"},
+{"command": "text-shortcuts:insert-text", "args": {"text": "Ψ", "autoPad": false}, "keys": ["Ctrl ;", "Shift P", "Shift S"], "selector": "body"},
+{"command": "text-shortcuts:insert-text", "args": {"text": "Ω", "autoPad": false}, "keys": ["Ctrl ;", "Shift O"], "selector": "body"},
+
+{"command": "text-shortcuts:insert-text", "args": {"text": "∈", "autoPad": false}, "keys": ["Ctrl ;", "Ctrl ;", "I"], "selector": "body"},
+{"command": "text-shortcuts:insert-text", "args": {"text": "lambda :", "autoPad": false}, "keys": ["Ctrl ;", "Ctrl L"], "selector": "body"},
+{"command": "text-shortcuts:insert-text", "args": {"text": "√", "autoPad": false}, "keys": ["Ctrl ;", "Ctrl R"], "selector": "body"},
+{"command": "text-shortcuts:insert-text", "args": {"text": "π", "autoPad": false}, "keys": ["Ctrl ;", "Ctrl P"], "selector": "body"},
+{"command": "text-shortcuts:insert-text", "args": {"text": "÷", "autoPad": false}, "keys": ["Ctrl ;", "Ctrl /"], "selector": "body"},
+{"command": "text-shortcuts:insert-text", "args": {"text": "⊕", "autoPad": false}, "keys": ["Ctrl ;", "Ctrl ="], "selector": "body"},
+{"command": "text-shortcuts:insert-text", "args": {"text": "⊞", "autoPad": false}, "keys": ["Ctrl ;", "Ctrl ;", "Ctrl ="], "selector": "body"},
+{"command": "text-shortcuts:insert-text", "args": {"text": "⊗", "autoPad": false}, "keys": ["Ctrl ;", "Ctrl 8"], "selector": "body"},
+{"command": "text-shortcuts:insert-text", "args": {"text": "⩅", "autoPad": false}, "keys": ["Ctrl ;", "Ctrl F"], "selector": "body"},
+{"command": "text-shortcuts:insert-text", "args": {"text": "⩂", "autoPad": false}, "keys": ["Ctrl ;", "Ctrl ;", "Ctrl F"], "selector": "body"},
+{"command": "text-shortcuts:insert-text", "args": {"text": "⋓", "autoPad": false}, "keys": ["Ctrl ;", "Ctrl A"], "selector": "body"},
+{"command": "text-shortcuts:insert-text", "args": {"text": "⩐", "autoPad": false}, "keys": ["Ctrl ;", "Ctrl ;", "Ctrl A"], "selector": "body"},
+{"command": "text-shortcuts:insert-text", "args": {"text": "⩏", "autoPad": false}, "keys": ["Ctrl ;", "Ctrl T"], "selector": "body"},
+{"command": "text-shortcuts:insert-text", "args": {"text": "⩣", "autoPad": false}, "keys": ["Ctrl ;", "Ctrl S"], "selector": "body"},
+{"command": "text-shortcuts:insert-text", "args": {"text": "⊔", "autoPad": false}, "keys": ["Ctrl ;", "Ctrl ;", "Ctrl  T"], "selector": "body"},
+{"command": "text-shortcuts:insert-text", "args": {"text": "⩖", "autoPad": false}, "keys": ["Ctrl ;", "Ctrl Y"], "selector": "body"},
+{"command": "text-shortcuts:insert-text", "args": {"text": "⩒", "autoPad": false}, "keys": ["Ctrl ;", "Ctrl ;", "Ctrl Y"], "selector": "body"},
+
+{"command": "text-shortcuts:insert-text", "args": {"text": "%%wtemp", "autoPad": false}, "keys": ["Ctrl \\", "T"], "selector": "body"},
+
+        {
+            "command": "jupyterlab_code_formatter:autopep8",
+            "keys": ["Alt F"],
+            "selector": ".jp-Notebook.jp-mod-editMode"
+        },
+        {
+            "command": "jupyterlab_code_formatter:autopep8",
+            "keys": ["F"],
+            "selector": ".jp-Notebook:focus"
+        },
+        {
+          "command": "lsp:jump-to-definition-notebook",
+          "keys": ["Accel B"],
+          "selector": ".jp-Notebook .jp-CodeCell",
+        "disabled": true
+        },
+        {
+          "command": "lsp:jump-to-definition-file_editor",
+          "keys": ["Accel B"],
+          "selector": ".jp-FileEditor",
+        "disabled": true
+        },
+
+        // {"command": "text-shortcuts:insert-text", "args": {"text": "⊞", "autoPad": false}, "keys": ["Ctrl ]", "P", "L"], "selector": "body"},
+    ]
+}

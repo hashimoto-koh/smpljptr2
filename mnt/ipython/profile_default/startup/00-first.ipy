@@ -1,0 +1,14 @@
+####################################################################
+# ipython
+####################################################################
+
+###################
+# %autosave 300
+
+###################
+from IPython.core.interactiveshell import InteractiveShell as _InteractiveShell
+_InteractiveShell.ast_node_interactivity = "all"
+
+###################
+import warnings as _warnings
+_warnings.filterwarnings('ignore')

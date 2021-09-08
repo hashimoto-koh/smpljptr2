@@ -1,0 +1,7 @@
+{
+    "fontFamily": "JuliaMono",
+
+    // Font size
+    // The font size used to render text.
+    "fontSize": 13,
+}

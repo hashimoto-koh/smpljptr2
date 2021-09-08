@@ -1,0 +1,19 @@
+{
+    "recordTiming": true,
+        
+     "codeCellConfig": {
+         "fontSize": 14, 
+//         "fontFamily": "Ricty Diminished"
+//         "fontFamily": "Ubuntu Mono"
+         "fontFamily": "JuliaMono"
+     },
+     "markdownCellConfig": {
+         "fontSize": 14, 
+         "fontFamily": "JuliaMono"
+     },
+     "rawCellConfig": {
+         "fontSize": 14, 
+         "fontFamily": "JuliaMono"
+     }
+         
+}
